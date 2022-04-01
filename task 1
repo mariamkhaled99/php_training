@@ -1,0 +1,21 @@
+<?php
+
+function existing ($value){
+    $names=['mariam','somaia','mena','yara','nada','dina','ali','alaa','esraa','khaled'];
+    $is_exist=in_array($value,$names);
+    if($is_exist==1){
+        echo 'Exist';
+        echo '';
+
+    }
+    else{
+        echo 'Failed ';
+        echo '';
+    }
+}
+// test
+existing('yomna');
+
+existing('mariam');
+
+existing('yara');
